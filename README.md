@@ -1,6 +1,6 @@
 ## FuseFat
 
-This fork of FuseFat adds -o offset=<bytes>  you can use parted, or some similar tool and get the block offset (mulitiply it by the block size) and you will be able to mount the partition inside a file.  This is not tested 100% - it is minorly tested with FAT32 and FAT16 volumes. There are a lot of places in the code where I had to add the offset, I cannot guarantee that I was able to spot all of them.
+This fork of FuseFat adds -o offset= (n bytes)  you can use parted, or some similar tool and get the block offset (mulitiply it by the block size) and you will be able to mount the partition inside a file.  This is not tested 100% - it is minorly tested with FAT32 and FAT16 volumes. There are a lot of places in the code where I had to add the offset, I cannot guarantee that I was able to spot all of them.
 
 
 ## Original Information
