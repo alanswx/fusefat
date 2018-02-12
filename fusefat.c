@@ -403,11 +403,11 @@ int main(int argc, char *argv[])
 	int res;
 
 
-#if 0
 	if (argc < 3) { 
 		v2f_usage(argv[0],&fusefat_oper);
 		return -ENODEV;
 	}
+#if 0
 	v2f_rearrangeargv(argc,argv);
 	pathname=argv[1];
 	argv[1]=argv[0];
